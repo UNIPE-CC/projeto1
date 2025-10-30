@@ -2,16 +2,16 @@
     <div class="container-fluid">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" href="?pg=conteudo">Home</a>
+                <a class="nav-link" href="?pg=conteudo">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="?pg=quemsomos">Quem Somos</a>
+                <a class="nav-link" href="?pg=quemSomos">Quem Somos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="?pg=clientes">Clientes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="?pg=faleconosco">Fale Conosco</a>
+                <a class="nav-link" href="?pg=faleConosco">Fale Conosco</a>
             </li>
         </ul>
     </div>
