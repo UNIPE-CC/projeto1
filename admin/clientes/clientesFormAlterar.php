@@ -17,7 +17,7 @@
 
 <h2>Cadastro de Cliente</h2>
 
-<form action="?pg=clientesAlterar" method="post">
+<form action="?pg=clientes/clientesAlterar" method="post">
     <input type="hidden" name="id" value="<?=$id?>">
     <label>Nome:</label>
     <input type="text" name="cliente" value="<?=$nome?>"><br>
@@ -26,5 +26,5 @@
     <label>Estado:</label>
     <input type="text" name="estado" value="<?=$estado?>"><br>
     <input type="submit" value="Atualizar Cliente">
-    <a href='?pg=clientesAdmin&id=$dados[id]'>Voltar</a><br>
+    <a href='?pg=clientes/clientesAdmin&id=$dados[id]'>Voltar</a><br>
 </form>

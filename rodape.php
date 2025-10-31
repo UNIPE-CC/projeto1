@@ -1,4 +1,4 @@
-<footer class="navbar navbar-expand-sm bg-secondary navbar-dark">
+<footer class="navbar navbar-expand-sm bg-primary navbar-dark">
     <h6>
         <?php
             $titulo_site = "Site Institucional";
@@ -17,6 +17,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?pg=clientes">Clientes</a>
+                </li>            
+                <li class="nav-item">
+                    <a class="nav-link" href="?pg=unidades">Unidades</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?pg=faleConosco">Fale Conosco</a>

@@ -9,6 +9,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="?pg=clientes">Clientes</a>
+            </li>            
+            <li class="nav-item">
+                <a class="nav-link" href="?pg=unidades">Unidades</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="?pg=faleConosco">Fale Conosco</a>

@@ -37,3 +37,7 @@
             }
     ?>
 </div>
+
+<?php
+    mysqli_close($conexao);
+?>

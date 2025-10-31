@@ -8,7 +8,7 @@
 
     if($resultado){
         echo "Registro excluido com sucesso";
-        echo "<a href='?pg=clientesAdmin></a>";
+        echo "<a href='?pg=clientes/clientesAdmin></a>";
     }
 
     mysqli_close($conexao);
