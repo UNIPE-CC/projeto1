@@ -1,5 +1,5 @@
 <h2>Cadastro de Cliente</h2>
-<form action="?pg=clientesCadastro" method="post">
+<form action="?pg=clientes/clientesCadastro" method="post">
     <label>Nome:</label>
     <input type="text" name="cliente" required><br>
     <label>Cidade:</label>

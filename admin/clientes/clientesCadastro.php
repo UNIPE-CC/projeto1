@@ -11,11 +11,11 @@
                 VALUES ('$nome', '$cidade', '$estado')";
         if(mysqli_query($conexao, $sql)){
             echo "<h3>Cliente cadastrado com sucesso!</h3>";
-            echo "<a href='?pg=clientesAdmin'>Voltar</a>";
+            echo "<a href='?pg=clientes/clientesAdmin'>Voltar</a>";
         }else{
             echo "<h3>Erro ao cadastrar cliente!</h3>";
         }
     }else{
         echo "<h2>Acesso negado!</h2>";
-        echo "<a href='?pg=clientesAdmin'>Voltar</a>";
+        echo "<a href='?pg=clientes/clientesAdmin'>Voltar</a>";
     }

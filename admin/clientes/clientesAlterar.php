@@ -16,11 +16,11 @@
 
         if(mysqli_query($conexao, $sql)){
             echo "<h3>Cliente alterado com sucesso!</h3>";
-            echo "<a href='?pg=clientesAdmin'>Voltar</a>";
+            echo "<a href='?pg=clientes/clientesAdmin'>Voltar</a>";
         }else{
             echo "<h3>Erro ao alterar cliente!</h3>";
         }
     }else{
         echo "<h2>Acesso negado!</h2>";
-        echo "<a href='?pg=clientesAdmin'>Voltar</a>";
+        echo "<a href='?pg=clientes/clientesAdmin'>Voltar</a>";
     }
