@@ -8,13 +8,13 @@
 ?>
 
 <div>
-    <table>
+    <table class="table table-striped">
         <thead>
             <tr>
-                <th>Curso</th>
-                <th>Nivel</th>
-                <th>Duracao</th>
-                <th>Modelo</th>
+                <th><h4>Curso</h4></th>
+                <th><h4>Nivel</h4></th>
+                <th><h4>Duracao</h4></th>
+                <th><h4>Modelo</h4></th>
             </tr>
         </thead>
         <tbody>
