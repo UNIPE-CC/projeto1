@@ -2,12 +2,12 @@
 
     require_once "config.inc.php";
 
-    $sql = "SELECET * FROM unidades";
+    $sql = "SELECT * FROM unidades";
 
     $resposta = mysqli_query($conexao, $sql);
 
-    echo "Listar Unidades";
-    echo "<a href='?pg=admin/unidadesForm' >Cadastrar unidade</a>";
+    echo "<a href='?pg=unidades/unidadesForm'>Cadastrar Unidade</a>";
+    echo "<h2>Listar Unidades</h2><hr>";
 
     if(mysqli_num_rows($resposta) > 0){
         while($dados = mysqli_fetch_array($resposta)){

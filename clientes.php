@@ -18,17 +18,17 @@
             </tr>
         </thead>
         <tbody>
-        <?php
-            while($dados = mysqli_fetch_array($resultado)){
-        ?>
+            <?php
+                while($dados = mysqli_fetch_array($resultado)){
+            ?>
             <tr>
                 <th><?=$dados['cliente']?></th>
                 <th><?=$dados['cidade']?></th>
                 <th><?=$dados['estado']?></th>
             </tr>
-                <?php
-                    }
-                ?>
+            <?php
+                }
+            ?>
         </tbody>
     </table>
     <?php 

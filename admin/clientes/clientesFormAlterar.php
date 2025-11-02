@@ -1,5 +1,5 @@
 <?php
-    require_once 'config.inc.php';
+    require_once "config.inc.php";
 
     $id = $_GET['id'];
     $sql = "SELECT * FROM clientes WHERE id = '$id'";
@@ -15,7 +15,7 @@
     }
 ?>
 
-<h2>Cadastro de Cliente</h2>
+<h2>Atualizar Cliente</h2>
 
 <form action="?pg=clientes/clientesAlterar" method="post">
     <input type="hidden" name="id" value="<?=$id?>">
