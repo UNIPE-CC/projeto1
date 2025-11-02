@@ -1,24 +1,35 @@
 # projeto1
 
-- O Tema escolhido para o novo CRUD.
-Será realizado um novo CRUD das unidades, onde pode se; criar, ler, atualizar e deletar a unidade.
+## O Tema escolhido para o novo CRUD.
+- Será realizado um novo CRUD das unidades.
 
-- Um breve resumo de quais desafios foram implementados.
+## Um breve resumo de quais desafios foram implementados.
+- Foi implementado um CRUD completo da unidade, onde pode se: criar, ler, atualizar e deletar a unidade na página do admin.
+- A aplicação utiliza o XAMPP, com o Apache(servidor local) e conexão ao DB MySQL para armazenar os dados.
+- Tecnologias: 
+  - HTML e CSS para o front.  
+  - php backend.
+  - MySQL banco de dados.
+  7
+## Instruções rápidas para rodar o projeto.
 
+[!IMPORTANT]
+- Ao clonar o repositório, é importante salvar com o caminho correto. 
+- Repositório: https://github.com/UNIPE-CC/projeto1.git
+- C:\xampp\htdocs\..
 
-- Instruções rápidas para rodar o projeto (Ex: "Acessar index.php").
-  1 - Inicializar o Apache e o MySQL no XAMPP.
-  2 - Abra o Browser. 
-2.1 - Na barra de navegacao, colocar "localhost:80/aulaphp".
-2.2 - Selecione o projeto1. 
-2.3 - Abrira a home do projeto.
-  3 - No menu da para se consultar os dados inseridos no banco de dados.
-  4 - Adicionando novos atributos no banco de dados.
-4.1 - Na barra de navegacao, colocar "localhost/aulaphp/projeto1/admin".
-4.2 - Ao estar na pagina do admin, poderá realizar o CRUD.
+1. Inicializar o Apache e o MySQL no XAMPP.
+2. Abra o Browser. 
+   - Na barra de navegacao, colocar [caminho](https://localhost/aulaphp) ou "localhost:80/aulaphp".
+3. Selecione o projeto1. 
+   - Após selecionado será direcionado a página home do projeto.
+4. No menu da para se consultar/listar os dados inseridos no banco de dados.
+5. Adicionando novos atributos no banco de dados.
+   - Na barra de navegacao, colocar [caminho](http://localhost/aulaphp/projeto1/admin) ou "localhost/aulaphp/projeto1/admin".
+6. Ao estar na pagina do admin, poderá realizar o CRUD.
 
-# DB mysql
-- Criando a tabela clientes
+# DB mySQL
+### tabela clientes
 ```
 CREATE TABLE clientes(
     id int AUTO_INCREMENT PRIMARY KEY,
@@ -28,7 +39,7 @@ CREATE TABLE clientes(
 );
 ```
 
-- Criando a tabela unidades
+### tabela unidades
 ```
 CREATE TABLE unidades(
     id int AUTO_INCREMENT PRIMARY KEY,
